@@ -20,4 +20,30 @@
  * Boston, MA  02110-1301  USA
  */
  
+# Usage
+
+Assuming : 
+
+1. Computers hostname is : 2003-VM (your machines hostname will obviously be different)
+1. You run this from a usb drive or network mounted drive (in this case , drive z: )
+
+   C:\> z:
+   Z:\> cscript //NoLogo ./auditsoftware.js
+   Starting Audit on : 2003-VM
+   Blah, blah, blah...
+
+Resulting output will be : 
+
+	Z:\>dir
+	01/07/2010  08:00 AM    <DIR>          .
+	01/07/2010  08:00 AM    <DIR>          ..
+	01/07/2010  08:00 AM             1,515 template.xsl
+	01/07/2010  08:00 AM             7,702 auditsoftware.js
+	01/07/2010  08:00 AM             1,497 style.css
+	01/07/2010  08:02 AM    <DIR>          2003-VM
+
+  Z:\> dir VM-2003
+  01/07/2010  08:02 AM                88 2003-VM-[201071-81545]_report.xml
+  01/07/2010  08:02 AM             1,746 2003-VM-[201071-81947]_log.txt
+  01/07/2010  08:02 AM               487 2003-VM-[201071-81947]_report.html
  
