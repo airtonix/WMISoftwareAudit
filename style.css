@@ -1,0 +1,131 @@
+/*
+ * WMISoftwareAudit/style.css
+ * This file is part of WMISoftwareAudit
+ *
+ * Copyright (C) 2010 - Zenobius Jiricek
+ *
+ * WMISoftwareAudit is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * WMISoftwareAudit is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with WMISoftwareAudit; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, 
+ * Boston, MA  02110-1301  USA
+ */
+ 
+body, html > body{
+	font-family:sans-serif, tahoma;
+	font-size:10px;
+}
+*{
+	font-family:sans-serif, tahoma;
+}
+
+.header{
+	width:100%;
+	float:left;
+	display:inline;
+}
+
+.group{
+	border:.1em solid #efefef;
+	background:#eee;
+	width:100%;
+	float:left;
+	display:inline;
+	
+}
+.group .group-title{
+	color:#999;
+	border-bottom:.2em solid #ccc;
+}
+.group table{
+	padding:0;
+	margin:0;
+	border:1em solid #ddd;
+	background:#ccc;
+}
+.group table tr{
+	padding:0;
+	margin:0;
+}
+.group .table-head td{
+	font-size:1.2em;
+	font-weight:bold;
+}
+
+.group tbody td{
+	padding:1em;
+	margin:0;
+}
+.group tbody tr td:first-child,
+.group .table-head td:first-child{
+	text-align:right;
+	padding-right:1em;
+}
+.group tbody tr td:last-child{
+}
+.group tbody tr td:nth-child(even){
+	background:#999;
+}
+		.table {
+			float:left;
+			display:inline;
+			width:30em;
+			clear:both;
+		}
+			.table dl{
+				float:left;
+				display:inline;
+				width:100%;
+				clear:both;
+			}
+			.table dt, .table dd{
+				float:left;
+				display:inline;
+				margin:0;
+				padding:.2em 0;
+				text-align:right;
+			}
+			.table dt{
+				clear:left;
+			}
+			.table dt span{
+				padding-right:1em;
+				font-weight:bold;
+				float:right;
+			}
+			
+			.table dd{
+				text-align:left;
+			}
+			.width-20-80{
+				width:20em;
+			}
+			.width-20-80 dt{
+				width:20%;
+			}
+			.width-20-80 dd{
+				width:80%;
+			}
+			
+			.width-30-70 dt{
+				width:30%;
+			}
+			.width-30-70 dd{
+				width:70%;
+			}
+
+			.width-40-60 dt{
+				width:40%;
+			}
+			.width-40-60 dd{
+				width:60%;
+			}
